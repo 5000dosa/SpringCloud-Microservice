@@ -1,0 +1,15 @@
+server:
+  port: 7789
+
+spring:
+  application:
+    name: eccomerceservice
+  cloud:
+    config:
+      url: http://127.0.0.1:7777
+      name: ecommerce
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
